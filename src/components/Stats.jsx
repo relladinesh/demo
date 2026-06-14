@@ -66,12 +66,12 @@ const Stats = () => {
         </motion.div>
 
         {/* Right Column: Bento Cards */}
-        <div className="grid grid-cols-2 gap-4 lg:gap-6 h-full w-full max-w-[600px] mx-auto lg:ml-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6 h-full w-full max-w-[600px] mx-auto lg:ml-auto">
           
           {/* Top Green Card */}
           <motion.div 
             initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.2 }}
-            className="col-span-2 bg-[#d4ff1a] p-8 md:p-10 flex flex-col justify-between min-h-[260px] md:min-h-[320px] shadow-sm hover:-translate-y-2 transition-transform duration-500"
+            className="col-span-1 sm:col-span-2 bg-[#d4ff1a] p-8 md:p-10 flex flex-col justify-between min-h-[260px] md:min-h-[320px] shadow-sm hover:-translate-y-2 transition-transform duration-500"
           >
             <div className="flex justify-between items-start">
               <p className="text-black font-bold text-xs md:text-sm w-32 uppercase leading-snug tracking-widest">
@@ -99,7 +99,7 @@ const Stats = () => {
                 <CheckCircle2 className="text-[#ad66ff] w-4 h-4 md:w-5 md:h-5" />
               </div>
             </div>
-            <h3 className="text-white text-[70px] md:text-[90px] font-black tracking-tighter leading-[0.8] mt-8">
+            <h3 className="text-white text-[60px] md:text-[90px] font-black tracking-tighter leading-[0.8] mt-8">
               44<span className="text-4xl md:text-5xl">%</span>
             </h3>
           </motion.div>
@@ -117,7 +117,7 @@ const Stats = () => {
                 <Globe2 className="text-[#ff556b] w-4 h-4 md:w-5 md:h-5" />
               </div>
             </div>
-            <h3 className="text-white text-[70px] md:text-[90px] font-black tracking-tighter leading-[0.8] mt-8">
+            <h3 className="text-white text-[60px] md:text-[90px] font-black tracking-tighter leading-[0.8] mt-8">
               20<span className="text-4xl md:text-5xl align-top relative top-2 ml-1">++</span>
             </h3>
           </motion.div>
