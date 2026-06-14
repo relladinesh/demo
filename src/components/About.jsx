@@ -14,7 +14,7 @@ const About = () => {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-[50px] md:text-[80px] font-black uppercase text-slate-950 tracking-tighter leading-[0.9] mb-8">
+            <h2 className="text-[40px] md:text-[80px] font-black uppercase text-slate-950 tracking-tighter leading-[0.9] mb-8">
               We Are <br/><span className="text-[#af60ff]">Zip Foundry.</span>
             </h2>
             <p className="text-xl font-medium text-slate-500 leading-relaxed mb-8">

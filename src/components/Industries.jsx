@@ -51,7 +51,7 @@ const Industries = () => {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-[50px] md:text-[80px] lg:text-[90px] font-black uppercase text-slate-950 leading-[0.85] tracking-tighter"
+            className="text-[40px] md:text-[80px] lg:text-[90px] font-black uppercase text-slate-950 leading-[0.85] tracking-tighter"
           >
             Tailored For<br/>
             <span className="text-slate-300">Every Industry</span>

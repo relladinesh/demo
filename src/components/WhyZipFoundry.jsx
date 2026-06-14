@@ -40,7 +40,7 @@ const WhyZipFoundry = () => {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-[60px] md:text-[90px] lg:text-[100px] font-black uppercase text-slate-950 leading-[0.8] tracking-tighter"
+            className="text-[40px] md:text-[90px] lg:text-[100px] font-black uppercase text-slate-950 leading-[0.8] tracking-tighter"
           >
             Intelligent<br/>
             <span className="text-slate-300">Solutions</span>

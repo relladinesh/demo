@@ -23,7 +23,7 @@ const Technology = () => {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-[60px] md:text-[80px] lg:text-[90px] font-black uppercase leading-[0.85] tracking-tighter text-slate-950"
+            className="text-[40px] md:text-[80px] lg:text-[90px] font-black uppercase leading-[0.85] tracking-tighter text-slate-950"
           >
             Technology<br/>
             <span className="text-slate-300">Ecosystem</span>
@@ -52,7 +52,7 @@ const Technology = () => {
           >
             {row1.map((tech, i) => (
               <div key={i} className="flex items-center gap-8 md:gap-16 whitespace-nowrap">
-                <span className="text-6xl md:text-8xl lg:text-9xl font-black uppercase tracking-tighter text-slate-950">
+                <span className="text-4xl md:text-8xl lg:text-9xl font-black uppercase tracking-tighter text-slate-950">
                   {tech}
                 </span>
                 <span className="text-3xl text-[#d4ff1a]">✦</span>
@@ -70,7 +70,7 @@ const Technology = () => {
           >
             {row2.map((tech, i) => (
               <div key={i} className="flex items-center gap-8 md:gap-16 whitespace-nowrap">
-                <span className="text-6xl md:text-8xl lg:text-9xl font-black uppercase tracking-tighter text-slate-200">
+                <span className="text-4xl md:text-8xl lg:text-9xl font-black uppercase tracking-tighter text-slate-200">
                   {tech}
                 </span>
                 <span className="text-3xl text-[#af60ff]">✦</span>

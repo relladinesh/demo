@@ -52,7 +52,7 @@ const Testimonials = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-[40px] md:text-[70px] font-black uppercase text-slate-950 tracking-tighter mb-4"
+          className="text-[32px] md:text-[70px] font-black uppercase text-slate-950 tracking-tighter mb-4"
         >
           Words of <span className="text-slate-300">Appreciation</span>
         </motion.h2>

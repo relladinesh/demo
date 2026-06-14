@@ -21,7 +21,7 @@ const Process = () => {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-[60px] md:text-[80px] lg:text-[90px] font-black uppercase leading-[0.85] tracking-tighter text-slate-950"
+            className="text-[40px] md:text-[80px] lg:text-[90px] font-black uppercase leading-[0.85] tracking-tighter text-slate-950"
           >
             Delivery<br/>
             <span className="text-slate-300">Process</span>
@@ -49,7 +49,7 @@ const Process = () => {
               className="group flex flex-col md:flex-row items-start md:items-center py-12 md:py-16 border-b-2 border-slate-100 hover:border-[#af60ff] transition-colors duration-500 cursor-default relative overflow-hidden"
             >
               <div className="absolute right-0 opacity-0 group-hover:opacity-5 transition-opacity duration-500 pointer-events-none -mr-12">
-                <span className="text-[200px] font-black text-slate-900 leading-none">{step.id}</span>
+                <span className="text-[120px] md:text-[200px] font-black text-slate-900 leading-none">{step.id}</span>
               </div>
 
               <div className="w-full md:w-1/4 mb-6 md:mb-0">
